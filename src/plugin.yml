@@ -1,0 +1,6 @@
+name: PowerBroadcast
+main: me.zezombini.powerbroadcast.PowerBroadcast
+description: Plugin de chat 
+version: 0.1
+author: ZeZombini
+depend: [Vault]
