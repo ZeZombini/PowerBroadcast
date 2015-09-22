@@ -5,6 +5,7 @@
  */
 package me.zezombini.powerbroadcast;
 
+import org.bukkit.Server;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -22,5 +23,9 @@ import org.bukkit.plugin.java.JavaPlugin;
         public void onDisable(){
             getLogger().info("Plugin éteint !");
         }
+        
+        Server s = this.getServer();
+        int nbrJoueur = s.broadcastMessage("test");
+        
         
     }
